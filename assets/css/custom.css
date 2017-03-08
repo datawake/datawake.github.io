@@ -1,0 +1,41 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+blockquote {
+  border-left: inherit;
+  font-size: inherit;
+  background: url("../img/blockquote.svg") top left no-repeat;
+
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
+
+.navbar-brand > img {
+  max-height: 48px;
+}
+
+.jumbotron {
+  height: 280px!important;
+  padding: 0;
+  line-height: 280px;
+  background-position: center;
+  background-size: cover
+}
+
+.jumbotron p {
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+footer {
+  font-size: 0.8em;
+}
